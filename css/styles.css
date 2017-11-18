@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body-class {
+  background-color: F9F8F8;
+  background: url("../images/brooklyn-banner.jpg");
+}
+
+.nav-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background:  #F9F8F8;  
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.brand-link-1 {
+  font-size: 24px;
+}
+
+.nav-class ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-class li {
+  margin-left: 20px;
+}
+
+.nav-class a {
+  color: #002BAF;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.nav-class a:hover {
+  color: #ddd;
+}
+
+.banner-1 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/brooklyn-banner.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.banner-1 h1 {
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.banner-1:hover h1 {
+  opacity: 1;
+}
+
+.row1 {
+  display: flex;
+}
+
+
+.brooklyn {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.manhattan {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.queens {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.bronx {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 100px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.col {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+.h2 {
+  color: orange;
+}
+
+.h2-2 {
+  color: blue;
+}
+
+.h2-3 {
+ color: purple;
+}
+
+.h2-4 {
+  color: green;
+}
+/*Home Page Ends Here*/
+
+/* Brooklyn Page Begines Here*/
+
+h1 {
+  font-size: 120px;
+  color: orange;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h2 {
+  font-size: 50px;
+  color: orange;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h5 {
+  font-size: 25px;
+  color: orange;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+/*marys css--*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Abril Fatface';
+  font-family: 'Roboto';
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background: #1627BA;
+  padding: 10px 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  
+}
+
+.brand link-m {
+  font-size:36px;
+  color: #cdceb9;
+  padding-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: #fff;
+}
+
+nav li {
+  margin-left: 20px;
+  padding: 30px;
+ 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: .5s;
+}
+
+nav a :hover {
+  color: #cdceb9;
+}
+
+.banner-m {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/UWS-Background.JPG);
+  background-size: cover;
+  background-position:top;
+  padding-bottom: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #0c2dd1;
+  font-size: 60px;
+
+}
+
+.banner h1-m {
+  background: rgba(255,255,255,0.5);
+  padding: 120px;
+  color: #0c2dd1;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h2-m {
+  margin-left: 30px;
+  padding-top: 60px;
+  color: #0c2dd1;
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h3-m {
+  margin: 0px;
+  padding: 10px;
+  color: #0c2dd1;
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+p1 {
+  margin: 5px;
+  padding: 30px;
+  color: #595d63;
+  font-size: 15px;
+  font-family: roboto;
+}
+.large-font {
+    font-size: 50px;
+     padding: 10px;
+    color: #0c2dd1; 
+    
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph1-m {
+  margin: 10px;
+  padding-top: 10px;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.paragraph2-m {
+  margin: 0px;
+  padding: 30px;
+  color: #000000;
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-right;
+    }    
+  
+.column-container-m {
+  margin: 5px;
+  display: flex;
+    
+}   
+.paragraph-text {
+  margin: 5px;
+  padding: 30px;
+  color: #08080808;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 100%
+    
+}   
+.main-div-m {
+  color: 80808080;
+  padding: 10px;
+  max-width: 33%;
+  margin: 5px;
+}
+    
+}
